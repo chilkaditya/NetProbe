@@ -20,8 +20,8 @@
 
 ### Build & Run
 ```shell
-git clone <repo-url>
-cd <folder-name>
+git clone https://github.com/chilkaditya/NetProbe.git
+cd NetProbe
 make  #build
 ./netprobe # for Linux
 ./netprobe.exe # for Windows
@@ -31,6 +31,7 @@ Sample working video & Some images of output - https://drive.google.com/file/d/1
 
 <img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/a6e76642-9cc3-4352-9868-bbeb68ae5e94" />
 <img width="625" height="270" alt="image" src="https://github.com/user-attachments/assets/d18ec6f1-2d05-41f1-8ed5-a7a6bb1c73b9" />
+
 
 
 
