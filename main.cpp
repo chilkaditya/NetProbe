@@ -9,7 +9,7 @@
 #include <filesystem>
 namespace fs = std::filesystem;
 
-// Windows related libraries
+// Windows related header files
 #ifdef _WIN32
     #include <winsock2.h>
     #include <ws2tcpip.h>
@@ -18,7 +18,7 @@ namespace fs = std::filesystem;
     #pragma comment(lib, "ws2_32.lib")
     #pragma comment(lib, "iphlpapi.lib")
 
-// Linux related libraries
+// Linux related header files
 #else
     #include <unistd.h>
     #include <arpa/inet.h>
@@ -233,4 +233,5 @@ int main(int argc, char* argv[]) {
     check_ports(ports, do_kill);
 
     return 0;
+
 }
