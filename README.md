@@ -27,3 +27,10 @@ make  #build
 ./netprobe.exe # for Windows
 ```
 ### Sample Output
+Sample working video & Some images of output - https://drive.google.com/file/d/1lmZEmEoL8_7FjMKzlHCtW6OrpQMtdWFt/view?usp=sharing
+
+<img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/a6e76642-9cc3-4352-9868-bbeb68ae5e94" />
+<img width="625" height="270" alt="image" src="https://github.com/user-attachments/assets/d18ec6f1-2d05-41f1-8ed5-a7a6bb1c73b9" />
+
+
+
