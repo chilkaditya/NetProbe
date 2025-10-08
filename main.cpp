@@ -119,7 +119,7 @@ bool same_subnet(const std::string& ip1, const std::string& ip2) {
     return a.size() == 4 && b.size() == 4 && a[0] == b[0] && a[1] == b[1] && a[2] == b[2];
 }
 
-
+// 4. Check local port status
 void check_ports(const std::vector<int>& ports, bool do_kill = false) {
 #ifdef _WIN32
     // Iterating through all ports and find the process that are using this port
@@ -235,3 +235,4 @@ int main(int argc, char* argv[]) {
     return 0;
 
 }
+
